@@ -8,6 +8,9 @@ gem 'bundler'
 
 gem 'pg'
 gem 'devise', git: 'git://github.com/plataformatec/devise.git', branch: 'master'
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+gem "omniauth-google"
 
 # Gems used only for assets and not required
 # in production environments by default.
