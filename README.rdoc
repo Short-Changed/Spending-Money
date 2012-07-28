@@ -1,3 +1,6 @@
 == Welcome to Spending Money
 
 Hack for Change hackathon project 2012
+
+=== Resources
+ * A Guide to San Francisco's Budget Process [http://www.sfcontroller.org/index.aspx?page=392]
