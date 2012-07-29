@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
-ruby "1.9.3" # You need bundler 1.2 - gem install bundler --pre
+ruby "1.9.3"                            # requires >= bundler-1.2
 
-gem 'bundler'
+gem 'bundler',
+    '~> 1.2.0.rc'                       # gem install bundler --pre
 gem 'rails', '3.2.6'
 
 gem 'pg'

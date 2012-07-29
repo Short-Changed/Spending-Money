@@ -170,7 +170,7 @@ PLATFORMS
 DEPENDENCIES
   annotate
   bootstrap-sass (~> 2.0.4.0)
-  bundler
+  bundler (~> 1.2.0.rc)
   coffee-rails (~> 3.2.1)
   decent_exposure
   devise!
