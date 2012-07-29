@@ -1,6 +1,7 @@
-%p#notice= notice
+= department
 
+%h2 Programs
 
-= link_to 'Edit', edit_department_path(@department)
-\|
-= link_to 'Back', departments_path
+%ul.nav.nav-pills.nav-stacked
+  - department_programs.each do |program|
+    %li= link_to program
