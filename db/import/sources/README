@@ -1,0 +1,30 @@
+Overview
+--------
+These are some rough data import scripts for the 'Spending Money' change.org
+2012 project.
+
+The data sourced is from the SF City Controller's office, as made public by
+datasf.org
+
+To run a fresh import over the data, run the following command from the
+'sources' directory:
+
+# cat Adopted_Budgets_for_two_years_ending_FY_2011-12.csv | psql -f extract.sql
+
+
+This should produce 3 concatenated CSV listings to stdout, which are, in turn:
+
+* A numbered list of all departments mentioned in the report
+* A numbered list of all programs (attached to departments) from the report
+* Expenditure for each of the programs over the two years included
+
+
+These are currently written out into separate .csv files in this directory for
+ease of loading.
+
+
+Caveats/Unknowns
+--------
+Only line items with a type of 'Gross Expenditure', 'Facilities Maintenance',
+and 'Capital Projects' have been included; this seems to tally with other
+initial checks against SF city spending, but would be good to validate
