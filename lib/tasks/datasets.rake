@@ -65,5 +65,16 @@ namespace :db do
       end
     end
 
+    def load_expenditures
+      puts "Loading expenditures"
+      location = Location.find_by_name('City of San Francisco')
+      # programid,period,spending
+      CSV.foreach("#{Rails.root}/db/import/expenditure.csv", :headers => true) do |row|
+        if prog = Program.find_by_reference_code(row['programid'])
+          prog.expenditures.create(year:row['period'], amount:row['spending'], budgetable_type:'Location', budgetable_id:location.id)
+        end
+      end
+    end
+
   end
 end
