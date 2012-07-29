@@ -10,7 +10,7 @@
     %tr
       %td= link_to 'Show', department
       %td= link_to 'Edit', edit_department_path(department)
-      %td= link_to 'Destroy', department, :confirm => 'Are you sure?', :method => :delete
+      %td= link_to 'Destroy', department, :data => { :confirm => 'Are you sure?' }, :method => :delete
 
 %br
 
