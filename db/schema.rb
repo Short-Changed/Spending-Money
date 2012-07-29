@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120729051623) do
+ActiveRecord::Schema.define(:version => 20120729062115) do
 
   create_table "departments", :force => true do |t|
     t.string   "name"
@@ -25,9 +25,12 @@ ActiveRecord::Schema.define(:version => 20120729051623) do
 
   create_table "functions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.string   "reference_code"
   end
+
+  add_index "functions", ["reference_code"], :name => "index_functions_on_reference_code"
 
   create_table "locations", :force => true do |t|
     t.datetime "created_at",              :null => false
