@@ -1,23 +1,19 @@
 class ProgramsController < ApplicationController
-  # GET /programs
-  # GET /programs.json
-  def index
-    @programs = Program.all
 
+  expose(:programs) { Program.all}
+  expose(:program)
+
+  def index
     respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @programs }
+      format.html
+      format.json { render json: programs }
     end
   end
 
-  # GET /programs/1
-  # GET /programs/1.json
   def show
-    @program = Program.find(params[:id])
-
     respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @program }
+      format.html
+      format.json { render json: program }
     end
   end
 
