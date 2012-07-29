@@ -39,3 +39,8 @@ gem 'jbuilder'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  # usage: rails server thin
+  gem 'thin'
+end
