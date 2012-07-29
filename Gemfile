@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "1.9.3" # You need bundler 1.2 - gem install bundler --pre
 
 gem 'bundler'
 gem 'rails', '3.2.6'
