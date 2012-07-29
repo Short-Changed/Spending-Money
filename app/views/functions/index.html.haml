@@ -1,19 +1,9 @@
-%h1 Listing functions
+%h1 Functions
 
 %table
   %tr
     %th Name
-    %th
-    %th
-    %th
 
   - @functions.each do |function|
     %tr
-      %td= function.name
-      %td= link_to 'Show', function
-      %td= link_to 'Edit', edit_function_path(function)
-      %td= link_to 'Destroy', function, :data => { :confirm => 'Are you sure?' }, :method => :delete
-
-%br
-
-= link_to 'New Function', new_function_path
+      %td= link_to function.name, function
