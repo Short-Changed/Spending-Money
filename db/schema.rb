@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120729014205) do
+ActiveRecord::Schema.define(:version => 20120729020904) do
 
   create_table "programs", :force => true do |t|
     t.integer  "parent_id"
@@ -19,6 +19,13 @@ ActiveRecord::Schema.define(:version => 20120729014205) do
     t.string   "name"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+  end
+
+  create_table "revenues", :force => true do |t|
+    t.integer  "amount",     :limit => 8
+    t.integer  "year",       :limit => 8
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
   end
 
   create_table "users", :force => true do |t|
