@@ -12,4 +12,7 @@
 
 class Program < ActiveRecord::Base
   # attr_accessible :title, :body
+
+  belongs_to :department
+
 end
