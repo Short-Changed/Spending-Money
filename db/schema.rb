@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120729081338) do
+ActiveRecord::Schema.define(:version => 20120729112041) do
 
   create_table "departments", :force => true do |t|
     t.string   "name"
@@ -22,6 +22,16 @@ ActiveRecord::Schema.define(:version => 20120729081338) do
   end
 
   add_index "departments", ["function_id"], :name => "index_departments_on_function_id"
+
+  create_table "expenditures", :force => true do |t|
+    t.integer  "year"
+    t.integer  "amount"
+    t.string   "budgetable_type"
+    t.integer  "budgetable_id"
+    t.integer  "user_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "functions", :force => true do |t|
     t.string   "name"

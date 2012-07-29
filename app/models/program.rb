@@ -15,6 +15,7 @@ class Program < ActiveRecord::Base
   attr_accessible :name
 
   belongs_to :department
+  has_many :expences, :as => :budgetable
 
   def to_s
     name

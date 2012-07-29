@@ -32,6 +32,8 @@ class User < ActiveRecord::Base
   attr_accessible :provider, :uid
   # attr_accessible :title, :body
 
+  has_many :expences, :as => :budgetable
+
 
   def self.find_for_facebook_oauth(auth, signed_in_resource=nil)
     user = User.where(:provider => auth.provider, :uid => auth.uid).first

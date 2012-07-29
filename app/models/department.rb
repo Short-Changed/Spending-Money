@@ -14,8 +14,8 @@ class Department < ActiveRecord::Base
   attr_accessible :name, :reference_code
 
   belongs_to :function
-
   has_many :programs
+  has_many :expences, :as => :budgetable
 
   def to_s
     name
