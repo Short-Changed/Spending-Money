@@ -1,3 +1,9 @@
 %p
   %b Name:
   = @function.name
+
+%h2 Departments
+
+%ul.nav.nav-pills.nav-stacked
+  - function_departments.each do |dept|
+    %li= link_to dept, dept

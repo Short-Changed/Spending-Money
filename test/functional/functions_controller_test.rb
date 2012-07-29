@@ -8,7 +8,7 @@ class FunctionsControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:functions)
+    assert_not_nil @controller.functions
   end
 
   test "should get new" do

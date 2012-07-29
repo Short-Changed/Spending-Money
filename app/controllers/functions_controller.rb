@@ -1,12 +1,13 @@
 class FunctionsController < ApplicationController
-  # GET /functions
-  # GET /functions.json
-  def index
-    @functions = Function.all
 
+  expose(:functions) { Function.all }
+  expose(:function)
+  expose(:function_departments) { function.departments }
+
+  def index
     respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @functions }
+      format.html
+      format.json { render json: functions }
     end
   end
 
