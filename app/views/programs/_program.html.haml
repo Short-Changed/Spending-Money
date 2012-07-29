@@ -2,4 +2,4 @@
   %span.program
     = program.name
     $
-    %input{class:'expenditure_amount', name:"expenditure[amount]", 'data-user_id' => '1', 'data-year' => Time.now.year, 'data-program_id' => program.id, style:'width:4em;'}
+    %input{class:'expenditure_amount', name:"expenditure[amount]", 'data-user_id' => '1', 'data-year' => Time.now.year, 'data-program_id' => program.id, style:'width:4em;', value:User.find(1).expenditures.where(program_id:program.id).sum(:amount)}
