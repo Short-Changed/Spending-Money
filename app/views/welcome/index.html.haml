@@ -1,10 +1,10 @@
 %header.jumbotron.subhead#overview
   %h1 Spending Money
-  %p.lead #{@current_city} needs your help to spend tax revenue. You paid, now make sure you're represented.
+  %p.lead The #{@current_city} needs your help to spend tax revenue. Make the best of your hard earned money.
 
 %br
-%canvas.home-page-graph{id:"users-graph", width:"400", height:"200"} No canvas support
-%canvas.home-page-graph{id:"gov-graph", width:"400", height:"200"} No canvas support
+.home-page-graph{id:"users-graph", style:"width:400px;height:200px"}
+.home-page-graph{id:"gov-graph", style:"width:400px;height:200px"}
 
 .row
   .span4
@@ -37,54 +37,24 @@
   .span8
     .hero-unit
       %h2
-        You have #{number_to_currency(@your_chunk, precision:0)} to spend on your local programs.
+        You have
+        %span.red #{number_to_currency(@your_chunk, precision:0)}
+        to spend on local programs. &nbsp; &nbsp;
         %span.btn-toolbar= link_to "Get Started Now!", spending_index_path, class: 'btn btn-primary btn-large'
 
 :javascript
   var current_revenue = "#{number_to_human(@current_revenue, precision:2)}";
   var your_chunk = "#{number_to_currency(@your_chunk, precision:0)}";
   var revenues = #{@revenues};
-  var x = 10;
-  u = document.getElementById("users-graph");
-  g = document.getElementById("gov-graph");
 
-  u_ctx = u.getContext("2d");
+  google.load("visualization", "1", {packages:["corechart"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable(revenues);
 
-  u_ctx.fillStyle="#000000";
-  u_ctx.fillRect(0,0,400,200);
-  u_ctx.fillStyle="#FFFFFF";
-  u_ctx.fillRect(2,2,396,196);
+    var user_chart = new google.visualization.LineChart(document.getElementById('users-graph'));
+    user_chart.draw(data, {title: "You've paid " + your_chunk, legend:{position:'none'}});
 
-  u_ctx.fillStyle="#000000";
-  u_ctx.font = "bold italic 20pt Helvetica";
-  u_ctx.fillText(current_revenue + " Collected", 10, 50);
-
-  u_ctx.font = "bold 20pt Helvetica";
-  u_ctx.fillText("You Paid: " + your_chunk, 120, 180);
-
-  u_ctx.moveTo(2, 196);
-  for (var i in revenues) {
-    x += 25;
-    y = (revenues[i] / 100000000) * (200 / 100);
-    u_ctx.lineTo(x,  y);
+    var gov_chart = new google.visualization.LineChart(document.getElementById('gov-graph'));
+    gov_chart.draw(data, {title: "City has collected " + current_revenue, legend:{position:'none'}});
   }
-  u_ctx.stroke();
-
-  g_ctx = g.getContext("2d");
-
-  g_ctx.fillStyle="#000000";
-  g_ctx.fillRect(0,0,400,200);
-  g_ctx.fillStyle="#FFFFFF";
-  g_ctx.fillRect(2,2,396,196);
-
-  g_ctx.fillStyle="#000000";
-  g_ctx.font = "bold italic 20pt Helvetica";
-  g_ctx.fillText(current_revenue + " Spent", 10, 50);
-
-  g_ctx.moveTo(2, 196);
-  for (var i in revenues) {
-    x += 25;
-    y = (revenues[i] / 100000000) * (200 / 100);
-    g_ctx.lineTo(x,  y);
-  }
-  g_ctx.stroke();
