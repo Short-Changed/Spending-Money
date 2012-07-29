@@ -32,7 +32,7 @@ class User < ActiveRecord::Base
   attr_accessible :provider, :uid
   # attr_accessible :title, :body
 
-  has_many :expences, :as => :budgetable
+  has_many :expenditures, :as => :budgetable
 
 
   def self.find_for_facebook_oauth(auth, signed_in_resource=nil)

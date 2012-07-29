@@ -14,5 +14,5 @@
 
 class Expenditure < ActiveRecord::Base
   belongs_to :budgetable, :polymorphic => true
-  # attr_accessible :title, :body
+  attr_accessible :year, :amount, :budgetable_type, :budgetable_id, :program_id
 end
