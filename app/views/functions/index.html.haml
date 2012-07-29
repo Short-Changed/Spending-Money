@@ -1,9 +1,5 @@
 %h1 Functions
 
-%table
-  %tr
-    %th Name
-
+%ul.nav.nav-pills.nav-stacked
   - functions.each do |function|
-    %tr
-      %td= link_to function.name, function
+    %li= link_to function.name, function
