@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title Spending Money
+    %title Short Changed - Spending Money
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
@@ -10,7 +10,7 @@
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          = link_to 'Spending Money', '/', class: 'brand'
+          = link_to 'Short Changed', '/', class: 'brand'
 
           - unless current_user
             .btn-group.pull-right

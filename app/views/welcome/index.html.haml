@@ -1,70 +1,90 @@
 %header.jumbotron.subhead#overview
   %h1 Spending Money
-  %p.lead Lets spend some money, shall we?
+  %p.lead #{@current_city} needs your help to spend tax revenue. You paid, now make sure you're represented.
+
+%br
+%canvas.home-page-graph{id:"users-graph", width:"400", height:"200"} No canvas support
+%canvas.home-page-graph{id:"gov-graph", width:"400", height:"200"} No canvas support
 
 .row
   .span4
     %blockquote
-      %p
-        Each year the City and
+      %p.quote
+        "Each year the City and
         County of San Francisco
-        spends billions of dollars...
+        spends billions of dollars..."
 
     %blockquote
-      %p
-        One  of the challenges each
+      %p.quote
+        "One  of the challenges each
         year is that the City must
         estimate its revenues and
         costs as far as 18 months in
-        advance.
+        advance."
 
 
     %blockquote
-      %p
-        Your tax dollars go into the
+      %p.quote
+        "Your tax dollars go into the
         budget, and
         %strong
           public input on
-          how the money is spent is vital.
+          how the money is spent is vital."
 
-      %small
-        City &amp; County of San Francisco, Controller's Office
-
-      %br
-      .span4.offset2
-        %canvas{id:"the_graph", width:"700", height:"200"} No canvas support
+    %p.right
+      — San Francisco, Controller's Office
 
   .span8
     .hero-unit
-      %h2 Where Can I Make My Voice Heard?
-
-      .btn-toolbar
-        = link_to "Get Started", functions_path, class: 'btn btn-primary btn-large'
+      %h2
+        You have #{number_to_currency(@your_chunk, precision:0)} to spend on your local programs.
+        %span.btn-toolbar= link_to "Get Started Now!", functions_path, class: 'btn btn-primary btn-large'
 
 :javascript
   var current_revenue = "#{number_to_human(@current_revenue, precision:2)}";
   var your_chunk = "#{number_to_currency(@your_chunk, precision:0)}";
   var revenues = #{@revenues};
   var x = 10;
-  c = document.getElementById("the_graph");
-  ctx = c.getContext("2d");
+  u = document.getElementById("users-graph");
+  g = document.getElementById("gov-graph");
 
-  ctx.fillStyle="#000000";
-  ctx.fillRect(0,0,580,200);
-  ctx.fillStyle="#FFFFFF";
-  ctx.fillRect(2,2,576,196);
+  u_ctx = u.getContext("2d");
 
-  ctx.fillStyle="#000000";
-  ctx.font = "bold italic 20pt Helvetica";
-  ctx.fillText(current_revenue, 10, 50);
+  u_ctx.fillStyle="#000000";
+  u_ctx.fillRect(0,0,400,200);
+  u_ctx.fillStyle="#FFFFFF";
+  u_ctx.fillRect(2,2,396,196);
 
-  ctx.font = "bold 20pt Helvetica";
-  ctx.fillText("Your Chunk: " + your_chunk, 150, 180);
+  u_ctx.fillStyle="#000000";
+  u_ctx.font = "bold italic 20pt Helvetica";
+  u_ctx.fillText(current_revenue + " Collected", 10, 50);
 
-  ctx.moveTo(2, 196);
+  u_ctx.font = "bold 20pt Helvetica";
+  u_ctx.fillText("You Paid: " + your_chunk, 120, 180);
+
+  u_ctx.moveTo(2, 196);
   for (var i in revenues) {
     x += 25;
     y = (revenues[i] / 100000000) * (200 / 100);
-    ctx.lineTo(x,  y);
+    u_ctx.lineTo(x,  y);
   }
-  ctx.stroke();
+  u_ctx.stroke();
+
+  g_ctx = g.getContext("2d");
+
+  g_ctx.fillStyle="#000000";
+  g_ctx.fillRect(0,0,400,200);
+  g_ctx.fillStyle="#FFFFFF";
+  g_ctx.fillRect(2,2,396,196);
+
+  g_ctx.fillStyle="#000000";
+  g_ctx.font = "bold italic 20pt Helvetica";
+  g_ctx.fillText(current_revenue + " Spent", 10, 50);
+
+  g_ctx.moveTo(2, 196);
+  for (var i in revenues) {
+    x += 25;
+    y = (revenues[i] / 100000000) * (200 / 100);
+    g_ctx.lineTo(x,  y);
+  }
+  g_ctx.stroke();
