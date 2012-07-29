@@ -4,3 +4,4 @@ Hack for Change hackathon project 2012
 
 === Resources
  * A Guide to San Francisco's Budget Process [http://www.sfcontroller.org/index.aspx?page=392]
+ * California Common Sense project - History of San Francisco Finances [http://www.cacs.org/ca/visualization/1508]
