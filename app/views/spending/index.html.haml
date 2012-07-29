@@ -1,6 +1,6 @@
-.fixed-header
-  %h1 Spending Money
-  %h3.right You have #{number_to_currency(@your_chunk, percision:0)} to spend.
+%h1 Spending Money
+%h3.right You have #{number_to_currency(@your_chunk, percision:0)} to spend.
+%br
 
-%table{width:'100%'}
-  = render @functions
+%ul= render @functions
+.clear

@@ -1,4 +1,3 @@
-%tr
-  %th
-  %th.department{colspan:2}= department.name
-= render department.programs
+%li
+  %span.department= department.name
+  %ul= render department.programs

@@ -1,4 +1,4 @@
-%tr
-  %td
-  %td.program= program.name
-  %td.nowrap #{text_field :expenditure, 'amount', style:'width:4em;'}%
+%li
+  %span.program
+    = program.name
+    %input{class:'expenditure_amount', name:"expenditure[amount]", 'data-user_id' => '1', 'data-year' => Time.now.year, style:'width:4em;'}
