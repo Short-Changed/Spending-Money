@@ -7,6 +7,7 @@
 #  reference_code :string(255)
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
+#  function_id    :integer
 #
 
 class Department < ActiveRecord::Base
