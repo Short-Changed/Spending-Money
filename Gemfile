@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 gem 'bundler'
+gem 'thin'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -41,6 +42,6 @@ gem 'jbuilder'
 # gem 'debugger'
 
 group :development do
-  # usage: rails server thin
-  gem 'thin'
+  gem 'annotate',                       # database documention in model files
+      :require => false                 #   usage: 'annotate --exclude tests,fixtures'
 end
