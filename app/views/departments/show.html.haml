@@ -1,7 +1,10 @@
-= department
+%h1
+  Showing Department:
+  %small
+    = department
 
 %h2 Programs
 
 %ul.nav.nav-pills.nav-stacked
   - department_programs.each do |program|
-    %li= link_to program
+    %li= link_to program, program
