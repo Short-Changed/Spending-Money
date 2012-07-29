@@ -1,0 +1,22 @@
+%header.jumbotron.subhead#overview
+  %h1 Compare User Picks with Gov Picks
+  %p.lead
+    Here we will see the difference of what you and the users here have picked to fund and what was actually funded.
+
+%br
+.home-page-graph{id:"users-graph", style:"width:410px;height:400px"}
+.home-page-graph{id:"gov-graph", style:"width:410px;height:400px"}
+.clear
+
+:javascript
+  google.load("visualization", "1", {packages:["corechart"]});
+  google.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var user_data = google.visualization.arrayToDataTable(#{user_expenditures});
+    var user_chart = new google.visualization.PieChart(document.getElementById('users-graph'));
+    user_chart.draw(user_data, {title: "User Data", legend:{position:'none'}});
+
+    var gov_data = google.visualization.arrayToDataTable(#{city_expenditures});
+    var gov_chart = new google.visualization.PieChart(document.getElementById('gov-graph'));
+    gov_chart.draw(gov_data, {title: "City Data", legend:{position:'none'}});
+  }

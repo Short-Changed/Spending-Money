@@ -71,7 +71,7 @@ namespace :db do
       # programid,period,spending
       CSV.foreach("#{Rails.root}/db/import/expenditure.csv", :headers => true) do |row|
         if prog = Program.find_by_reference_code(row['programid'])
-          prog.expenditures.create(year:row['period'], amount:row['spending'], budgetable_type:'Location', budgetable_id:location.id)
+          prog.expenditures.create(year:row['period'].split('-').last, amount:row['spending'])
         end
       end
     end

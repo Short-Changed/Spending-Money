@@ -15,6 +15,7 @@ class Location < ActiveRecord::Base
   has_many   :children, class_name: 'Location', foreign_key: 'parent_id'
 
   has_many :revenues
+  has_many :expenditures, :as => :budgetable
 
   attr_accessible :name, :population
 end

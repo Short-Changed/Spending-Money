@@ -15,7 +15,7 @@ class Department < ActiveRecord::Base
 
   belongs_to :function
   has_many :programs
-  has_many :expences, :as => :budgetable
+  has_many :expenditure, :as => :budgetable
 
   def to_s
     name

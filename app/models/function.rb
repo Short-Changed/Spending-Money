@@ -14,7 +14,7 @@ class Function < ActiveRecord::Base
   attr_accessible :name
 
   has_many :departments
-  has_many :expences, :as => :budgetable
+  has_many :expenditure, :as => :budgetable
 
   def to_s
     name
