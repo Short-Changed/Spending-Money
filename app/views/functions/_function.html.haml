@@ -1,3 +1,9 @@
-%li
-  %span.function= function.name
-  %ul= render function.departments
+- html_id = "function_#{function_counter}"
+- expanded = (function_counter == 0) ? ' in ' : nil
+
+.btn-toolbar
+  %li
+    = link_to function.name, "##{html_id}", :class => 'btn btn-info btn-large', :'data-toggle' => 'collapse', :'data-target' => "##{html_id}"
+    %ul.collapse(id="#{html_id}" class="#{expanded}")
+      .btn-toolbar
+        = render function.departments
