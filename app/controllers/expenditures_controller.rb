@@ -1,4 +1,10 @@
 class ExpendituresController < ApplicationController
+
+  expose(:expenditures) { Expenditure.all }
+
+  def index
+  end
+
   def create
     @expenditure = Expenditure.new(params[:expenditure])
 

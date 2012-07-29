@@ -1,4 +1,5 @@
 SpendingMoney::Application.routes.draw do
+  resources :spending
   resources :functions
 
   resources :programs
