@@ -12,5 +12,7 @@
 class Department < ActiveRecord::Base
   attr_accessible :name, :reference_code
 
+  belongs_to :function
+
   has_many :programs
 end

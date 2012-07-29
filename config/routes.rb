@@ -1,4 +1,6 @@
 SpendingMoney::Application.routes.draw do
+  resources :functions
+
   resources :programs
 
   devise_for :users

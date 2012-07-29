@@ -18,6 +18,15 @@ ActiveRecord::Schema.define(:version => 20120729051316) do
     t.string   "reference_code"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+    t.integer  "function_id"
+  end
+
+  add_index "departments", ["function_id"], :name => "index_departments_on_function_id"
+
+  create_table "functions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "locations", :force => true do |t|
