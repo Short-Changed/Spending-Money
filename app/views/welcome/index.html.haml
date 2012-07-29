@@ -1,6 +1,6 @@
 %header.jumbotron.subhead#overview
   %h1 Spending Money
-  %p.lead The #{@current_city} needs your help to spend tax revenue. Make the best of your hard earned money.
+  %p.lead The #{location_name} needs your help to spend tax revenue. Make the best of your hard earned money.
 
 %br
 .home-page-graph{id:"users-graph", style:"width:400px;height:200px"}
@@ -38,13 +38,13 @@
     .hero-unit
       %h2
         You have
-        %span.red #{number_to_currency(@your_chunk, precision:0)}
+        %span.red #{number_to_currency(your_chunk, precision:0)}
         to spend on local programs. &nbsp; &nbsp;
         %span.btn-toolbar= link_to "Get Started Now!", spending_index_path, class: 'btn btn-primary btn-large'
 
 :javascript
-  var current_revenue = "#{number_to_human(@current_revenue, precision:2)}";
-  var your_chunk = "#{number_to_currency(@your_chunk, precision:0)}";
+  var current_revenue = "#{number_to_human(revenue, precision:2)}";
+  var your_chunk = "#{number_to_currency(your_chunk, precision:0)}";
   var revenues = #{revenues};
 
   google.load("visualization", "1", {packages:["corechart"]});
@@ -56,5 +56,5 @@
     user_chart.draw(data, {title: "You've paid " + your_chunk, legend:{position:'none'}});
 
     var gov_chart = new google.visualization.LineChart(document.getElementById('gov-graph'));
-    gov_chart.draw(data, {title: "City has collected " + current_revenue, legend:{position:'none'}});
+    gov_chart.draw(data, {title: "The City has collected " + current_revenue, legend:{position:'none'}});
   }
