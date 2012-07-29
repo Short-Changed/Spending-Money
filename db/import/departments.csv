@@ -1,55 +1,55 @@
-departmentid,department
-1,Academy Of Sciences
-2,Adult Probation
-3,Airport Commission
-4,Arts Commission
-5,Asian Art Museum
-6,Assessor / Recorder
-7,Board Of Appeals
-8,Board Of Supervisors
-9,Children And Families Commission
-10,Children; Youth & Their Families
-11,Child Support Services
-12,City Attorney
-13,City Planning
-14,Civil Service Commission
-15,Controller
-16,County Education Office
-17,Department Of Building Inspection
-18,Department Of Emergency Management
-19,Department Of The Status Of Women
-20,District Attorney
-21,Economic And Workforce Development
-22,Elections
-23,Environment
-24,Ethics Commission
-25,Fine Arts Museum
-26,Fire Department
-27,General City Responsibility
-28,General Services Agency - City Admin
-29,General Services Agency - Public Works
-30,General Services Agency - Technology
-31,Health Service System
-32,Hetch Hetchy
-33,Human Resources
-34,Human Rights Commission
-35,Human Services
-36,Juvenile Probation
-37,Law Library
-38,Mayor
-39,Municipal Transportation Agency
-40,Police
-41,Port
-42,Public Defender
-43,Public Health
-44,Public Library
-45,Public Utilities Commission
-46,Recreation And Park Commission
-47,Rent Arbitration Board
-48,Retirement System
-49,Sheriff
-50,Superior Court
-51,Treasurer/Tax Collector
-52,War Memorial
-53,Wastewater Enterprise
-54,Water Department
+departmentid,department,refcode
+1,Academy Of Sciences,SCI
+2,Adult Probation,ADP
+3,Airport Commission,AIR
+4,Arts Commission,ART
+5,Asian Art Museum,AAM
+6,Assessor / Recorder,ASR
+7,Board Of Appeals,PAB
+8,Board Of Supervisors,BOS
+9,Children And Families Commission,CFC
+10,Children; Youth & Their Families,CHF
+11,Child Support Services,CSS
+12,City Attorney,CAT
+13,City Planning,CPC
+14,Civil Service Commission,CSC
+15,Controller,CON
+16,County Education Office,USD
+17,Department Of Building Inspection,DBI
+18,Department Of Emergency Management,ECD
+19,Department Of The Status Of Women,WOM
+20,District Attorney,DAT
+21,Economic And Workforce Development,ECN
+22,Elections,REG
+23,Environment,ENV
+24,Ethics Commission,ETH
+25,Fine Arts Museum,FAM
+26,Fire Department,FIR
+27,General City Responsibility,GEN
+28,General Services Agency - City Admin,ADM
+29,General Services Agency - Public Works,DPW
+30,General Services Agency - Technology,TIS
+31,Health Service System,HSS
+32,Hetch Hetchy,HHP
+33,Human Resources,HRD
+34,Human Rights Commission,HRC
+35,Human Services,DSS
+36,Juvenile Probation,JUV
+37,Law Library,LLB
+38,Mayor,MYR
+39,Municipal Transportation Agency,MTA
+40,Police,POL
+41,Port,PRT
+42,Public Defender,PDR
+43,Public Health,DPH
+44,Public Library,LIB
+45,Public Utilities Commission,PUC
+46,Recreation And Park Commission,REC
+47,Rent Arbitration Board,RNT
+48,Retirement System,RET
+49,Sheriff,SHF
+50,Superior Court,CRT
+51,Treasurer/Tax Collector,TTX
+52,War Memorial,WAR
+53,Wastewater Enterprise,CWP
+54,Water Department,WTR
