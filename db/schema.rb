@@ -11,13 +11,30 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120729025632) do
+ActiveRecord::Schema.define(:version => 20120729051316) do
 
   create_table "departments", :force => true do |t|
     t.string   "name"
     t.string   "reference_code"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+    t.integer  "function_id"
+  end
+
+  add_index "departments", ["function_id"], :name => "index_departments_on_function_id"
+
+  create_table "functions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "locations", :force => true do |t|
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+    t.integer  "parent_id"
+    t.string   "name"
+    t.integer  "population", :limit => 8
   end
 
   create_table "programs", :force => true do |t|
@@ -30,10 +47,11 @@ ActiveRecord::Schema.define(:version => 20120729025632) do
   end
 
   create_table "revenues", :force => true do |t|
-    t.integer  "amount",     :limit => 8
-    t.integer  "year",       :limit => 8
-    t.datetime "created_at",              :null => false
-    t.datetime "updated_at",              :null => false
+    t.integer  "amount",      :limit => 8
+    t.integer  "year",        :limit => 8
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.integer  "location_id", :limit => 8
   end
 
   create_table "users", :force => true do |t|

@@ -1,7 +1,9 @@
 one:
   name: Academy Of Sciences
   reference_code: 1
+  function: one
 
 two:
   name: Academy Of Sciences
   reference_code: 2
+  function: two
