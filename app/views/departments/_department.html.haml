@@ -1,3 +1,5 @@
 %li
-  %span.department= department.name
-  %ul= render department.programs
+  %span.department
+    %span.arrow ►
+    = department.name
+  %ul{style:'display:none'}= render department.programs
