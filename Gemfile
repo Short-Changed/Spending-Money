@@ -20,6 +20,9 @@ gem 'jquery-rails'
 gem 'kaminari'
 gem 'jbuilder'
 
+### controller utilities
+gem 'decent_exposure'
+
 group :development do
   gem 'annotate',                       # database documention in model files
       :require => false                 #   usage: 'annotate --exclude tests,fixtures'
