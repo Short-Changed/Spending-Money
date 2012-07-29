@@ -15,4 +15,9 @@ class Department < ActiveRecord::Base
   belongs_to :function
 
   has_many :programs
+
+  def to_s
+    name
+  end
+
 end
