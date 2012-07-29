@@ -1,55 +1,55 @@
-departmentid,department,refcode
-1,Academy Of Sciences,SCI
-2,Adult Probation,ADP
-3,Airport Commission,AIR
-4,Arts Commission,ART
-5,Asian Art Museum,AAM
-6,Assessor / Recorder,ASR
-7,Board Of Appeals,PAB
-8,Board Of Supervisors,BOS
-9,Children And Families Commission,CFC
-10,Children; Youth & Their Families,CHF
-11,Child Support Services,CSS
-12,City Attorney,CAT
-13,City Planning,CPC
-14,Civil Service Commission,CSC
-15,Controller,CON
-16,County Education Office,USD
-17,Department Of Building Inspection,DBI
-18,Department Of Emergency Management,ECD
-19,Department Of The Status Of Women,WOM
-20,District Attorney,DAT
-21,Economic And Workforce Development,ECN
-22,Elections,REG
-23,Environment,ENV
-24,Ethics Commission,ETH
-25,Fine Arts Museum,FAM
-26,Fire Department,FIR
-27,General City Responsibility,GEN
-28,General Services Agency - City Admin,ADM
-29,General Services Agency - Public Works,DPW
-30,General Services Agency - Technology,TIS
-31,Health Service System,HSS
-32,Hetch Hetchy,HHP
-33,Human Resources,HRD
-34,Human Rights Commission,HRC
-35,Human Services,DSS
-36,Juvenile Probation,JUV
-37,Law Library,LLB
-38,Mayor,MYR
-39,Municipal Transportation Agency,MTA
-40,Police,POL
-41,Port,PRT
-42,Public Defender,PDR
-43,Public Health,DPH
-44,Public Library,LIB
-45,Public Utilities Commission,PUC
-46,Recreation And Park Commission,REC
-47,Rent Arbitration Board,RNT
-48,Retirement System,RET
-49,Sheriff,SHF
-50,Superior Court,CRT
-51,Treasurer/Tax Collector,TTX
-52,War Memorial,WAR
-53,Wastewater Enterprise,CWP
-54,Water Department,WTR
+departmentid,department,department_refcode,description,url
+1,Academy Of Sciences,SCI,,
+2,Adult Probation,ADP,,
+3,Airport Commission,AIR,"The Airport Commission consists of five members appointed by the Mayor to four year terms. Originally part of the San Francisco Public Utilities Commission, the Airport Commission was established by Charter in 1970. In accordance with the Charter, the Airport Commission is primarily a policy-making body, establishing the policies by which the Airport operates through the adoption of resolutions. The Commission is not involved in the day-to-day operation of the Airport. The operation of the Airport is vested in the Airport Director, who is appointed by the Commission.", http://www.flysfo.com/web/page/about/commission/about/
+4,Arts Commission,ART,,
+5,Asian Art Museum,AAM,,
+6,Assessor / Recorder,ASR,,
+7,Board Of Appeals,PAB,,
+8,Board Of Supervisors,BOS,,
+9,Children And Families Commission,CFC,,
+10,Children; Youth & Their Families,CHF,"Created in 1989, San Francisco's Department of Children, Youth & Their Families (known as DCYF) is one of the few city departments in the country dedicated exclusively to meet the needs of young people from birth through the age of 24.  The department's mission is to ensure that families with children are a prominent and valued segment of San Francisco's social fabric by supporting programs and activities in every San Francisco neighborhood.", http://www.dcyf.org/
+11,Child Support Services,CSS,,
+12,City Attorney,CAT,"The City Attorney's Office is committed to providing the highest quality legal services to the Mayor, Board of Supervisors, San Francisco Unified School District and the 94 departments, boards, commissions and offices of the City and County of San Francisco.", http://www.sfcityattorney.org/
+13,City Planning,CPC,,
+14,Civil Service Commission,CSC,,
+15,Controller,CON,,
+16,County Education Office,USD,,
+17,Department Of Building Inspection,DBI,"Under the direction and management of the seven-member citizen Building Inspection Commission, to oversee the effective, efficient, fair and safe enforcement of the City and County of San Francisco 's Building, Housing, Plumbing, Electrical, and Mechanical Codes, along with the Disability Access Regulations.", http://www.sfdbi.org/
+18,Department Of Emergency Management,ECD,"The Disaster Council is chaired by the Mayor and composed of key department heads and City officials, three members of the Board of Supervisors, and representatives of private organizations appointed by the Mayor. The Council meets quarterly at the call of the Mayor to share information and ensure full participation by member agencies in the emergency planning activities of the City. Meetings are open to the public.", http://sfdem.org/
+19,Department Of The Status Of Women,WOM,,
+20,District Attorney,DAT,"At the District Attorney's Office, we are committed to achieving justice for our city's most vulnerable residents. We work tirelessly to hold offenders accountable and protect victims, and we innovate to break the cycle of crime.", http://www.sfdistrictattorney.org/
+21,Economic And Workforce Development,ECN,,
+22,Elections,REG,,
+23,Environment,ENV,,
+24,Ethics Commission,ETH,,
+25,Fine Arts Museum,FAM,,
+26,Fire Department,FIR,"Established in 1866, the San Francisco Fire Department is rich in tradition and history. From the Great Earthquake and Fire of 1906 to the Loma Prieta Earthquake of 1989, the Department has grown to meet the many challenges along the way. Today, the San Francisco Fire Department serves an estimated 1.5 million people, providing fire suppression and emergency medical services to the residents, visitors and workers within San Francisco's 49 square miles.", http://www.sf-fire.org/
+27,General City Responsibility,GEN,"General City Responsibility is a departmental designation for expenditures that are citywide in nature. For example, General Fund payment of claims, retiree subsidies or health services administration costs are budgeted in General City Responsibility rather than allocating costs to General Fund departments.", http://www.sfmayor.org/index.aspx?page=500
+28,General Services Agency - City Admin,ADM,,
+29,General Services Agency - Public Works,DPW,,
+30,General Services Agency - Technology,TIS,,
+31,Health Service System,HSS,,
+32,Hetch Hetchy,HHP,"Hetch Hetchy is only one of nine reservoirs that comprise the San Francisco Public Utility Commission’s water system. Although Hetch Hetchy Reservoir is the most well-known, it stores less than 25% of the system’s water. San Francisco’s water-bank in Don Pedro Reservoir, downstream on the Tuolumne River, holds twice as much water as Hetch Hetchy.", http://www.hetchhetchy.org/
+33,Human Resources,HRD,,
+34,Human Rights Commission,HRC,,
+35,Human Services,DSS,"HSA is a department of the City and County of San Francisco and the central resource for public assistance in the city. Our mission is to promote well-being and self-sufficiency among individuals, families and communities in San Francisco. HSA was formed in 2004 with the merger of two previously existing city departments, the Department of Human Services and the Department of Aging and Adult Services. The agency retains two commissions and two department heads.", http://www.sfhsa.org/
+36,Juvenile Probation,JUV,,
+37,Law Library,LLB,,
+38,Mayor,MYR,,
+39,Municipal Transportation Agency,MTA,"The Agency is the City’s mobility manager and operates the entire surface transportation network that encompasses pedestrians, bicycling, transit, traffic and parking and regulates the taxi industry. Proposition E, passed by the voters in November 1999, amended the City Charter, calling for the creation of the SFMTA through consolidation of the Municipal Railway and the Department of Parking and Traffic on July 1, 2002, to support the City’s Transit First Policy, section 8A.115.", http://www.sfmta.com
+40,Police,POL,"The San Francisco Police Department is committed to being be a world-class police department and a leader among urban police departments by hiring and promoting talented officers and professional staff, employing the highest standards of accountability, performance, best practices in policing, and reflecting the values of the world-class city it serves.", http://sf-police.org/
+41,Port,PRT,"The Port Commission is responsible for the seven and one-half miles of San Francisco Waterfront adjacent to San Francisco Bay, which the Port develops, markets, leases, administers, manages, and maintains. Its jurisdiction stretches along the waterfront from Hyde Street Pier on the north to India Basin on the south.", http://www.sfport.com/
+42,Public Defender,PDR,,
+43,Public Health,DPH,"As the governing and policy-making body of the Department of Public Health, the San Francisco Health Commission is mandated by City & County Charter to manage and control the City and County hospitals, to monitor and regulate emergency medical services, and all matters pertaining to the preservation, promotion and protection of the lives, health and mental health of San Francisco residents.", http://www.sfdph.org/dph/
+44,Public Library,LIB,"The San Francisco Public Library system is dedicated to free and equal access to information, knowledge, independent learning and the joys of reading for our diverse community.", http://sfpl.org/
+45,Public Utilities Commission,PUC,"The San Francisco Public Utilities Commission consists of five members, nominated by the Mayor and approved by the Board of Supervisors. Their responsibility is to provide operational oversight in areas such as rates and charges for services, approval of contracts, and organizational policy.", http://www.sfwater.org/
+46,Recreation And Park Commission,REC,"The Recreation and Park Department is governed by a seven-member Commission appointed by the Mayor to four-year terms. In accordance with the Charter, the Recreation and Park Commission is primarily a policy-making body, establishing the policies by which the Recreation and Park Department operates. The Commission is responsible for the over 220 parks, playgrounds and open spaces throughout San Francisco and two outside the City limits. These include destinations such as Camp Mather, Golden Gate Park, Harding Golf Course, Coit Tower, Palace of Fine Arts and Candlestick Park, home of the San Francisco Forty-Niners.", http://sfrecpark.org/Commission.aspx
+47,Rent Arbitration Board,RNT,,
+48,Retirement System,RET,,
+49,Sheriff,SHF,"The San Francisco Sheriff's Department is to be an effective and integral part of the civil and criminal law enforcement efforts of the State of California, and the City and County of San Francisco. The Department will accomplish its mission through competent performance by its deputized personnel, and support staff, in accordance with the powers established by the laws of the State of California and the Charter and Ordinances of the City and County of San Francisco.", http://www.sfsheriff.info/
+50,Superior Court,CRT,"The purpose of the San Francisco Superior Court is to assure equal access, fair treatment, and the just and efficient resolution of disputes for all people asserting their rights under the law.", http://www.sfsuperiorcourt.org/
+51,Treasurer/Tax Collector,TTX,,
+52,War Memorial,WAR,,
+53,Wastewater Enterprise,CWP,"Wastewater Enterprise is responsible for protecting public heath and safety through the collection and treatment of wastewater. More than 80 million gallons of wastewater are collected every day in a 900 mile combined sewer system, and transported to treatment plants where pollutants are removed before release into San Francisco Bay.", http://www.sfwater.org/
+54,Water Department,WTR,"The San Francisco Public Utilities Commission is a department of the City and County of San Francisco that provides retail drinking water and wastewater services to San Francisco, wholesale water to three Bay Area counties, and green hydroelectric and solar power to San Francisco's municipal departments.", http://sfwater.org/
