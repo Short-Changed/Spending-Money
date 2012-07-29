@@ -40,3 +40,8 @@ gem 'jbuilder'
 
 # To use debugger
 # gem 'debugger'
+
+group :development do
+  gem 'annotate',                       # database documention in model files
+      :require => false                 #   usage: 'annotate --exclude tests,fixtures'
+end
