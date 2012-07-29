@@ -11,10 +11,16 @@
       .navbar-inner
         .container
           = link_to 'Spending Money', '/', class: 'brand'
+
+          - unless current_user
+            .btn-group.pull-right
+              %a.btn.dropdown-toggle(data-toggle='dropdown' href='/users/sign_in')
+                %i.icon-user
+                Sign In
+
           .nav-collapse.collapse
             %ul.nav
-              %li= link_to 'About Us', '/about_us'
-              %li= link_to 'Sign In', '/users/sign_in'
+              %li= link_to 'About', '/about'
 
     .container
       = yield
