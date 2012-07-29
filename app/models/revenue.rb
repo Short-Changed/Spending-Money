@@ -10,5 +10,6 @@
 #
 
 class Revenue < ActiveRecord::Base
+  belongs_to :location
   attr_accessible :amount, :year
 end
