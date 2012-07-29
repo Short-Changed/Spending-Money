@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.6'
 gem 'bundler'
+gem 'thin'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -39,8 +40,3 @@ gem 'jbuilder'
 
 # To use debugger
 # gem 'debugger'
-
-group :development do
-  # usage: rails server thin
-  gem 'thin'
-end
