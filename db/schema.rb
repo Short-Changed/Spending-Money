@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120729020904) do
+ActiveRecord::Schema.define(:version => 20120729024234) do
+
+  create_table "departments", :force => true do |t|
+    t.string   "name"
+    t.string   "reference_code"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
 
   create_table "programs", :force => true do |t|
     t.integer  "parent_id"
