@@ -45,7 +45,7 @@
 :javascript
   var current_revenue = "#{number_to_human(@current_revenue, precision:2)}";
   var your_chunk = "#{number_to_currency(@your_chunk, precision:0)}";
-  var revenues = #{@revenues};
+  var revenues = #{revenues};
 
   google.load("visualization", "1", {packages:["corechart"]});
   google.setOnLoadCallback(drawChart);
