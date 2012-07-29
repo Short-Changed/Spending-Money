@@ -27,4 +27,5 @@ gem 'decent_exposure'
 group :development do
   gem 'annotate',                       # database documention in model files
       :require => false                 #   usage: 'annotate --exclude tests,fixtures'
+  gem 'rails-erd'                       # generate ERD docs via: 'rake erd'
 end
