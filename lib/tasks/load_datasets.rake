@@ -29,8 +29,8 @@ namespace :db do
 
   def load_revenues
     puts "Loading Revenues"
-    Revenue.create(year:2012, amount:7300000000)
-    Revenue.create(year:2013, amount:7300000000)
+    Location.find_by_name('City of San Francisco').revenues.create(year:2012, amount:7300000000)
+    Location.find_by_name('City of San Francisco').revenues.create(year:2013, amount:7300000000)
   end
 
   def load_functions
