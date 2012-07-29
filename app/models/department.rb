@@ -1,18 +1,16 @@
 # == Schema Information
 #
-# Table name: programs
+# Table name: departments
 #
 #  id             :integer          not null, primary key
-#  parent_id      :integer
-#  reference_code :string(255)
 #  name           :string(255)
+#  reference_code :string(255)
 #  created_at     :datetime         not null
 #  updated_at     :datetime         not null
 #
 
-class Program < ActiveRecord::Base
-  # attr_accessible :title, :body
+class Department < ActiveRecord::Base
+  attr_accessible :name, :reference_code
 
-  belongs_to :department
-
+  has_many :programs
 end

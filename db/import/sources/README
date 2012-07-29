@@ -28,3 +28,9 @@ Caveats/Unknowns
 Only line items with a type of 'Gross Expenditure', 'Facilities Maintenance',
 and 'Capital Projects' have been included; this seems to tally with other
 initial checks against SF city spending, but would be good to validate
+
+
+Manual Data Collection
+--------
+Department descriptions were gathered manually, starting with the most highly
+funded departments in the dataset.

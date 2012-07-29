@@ -1,324 +1,324 @@
-programid,departmentid,program
-1,1,Academy Of Sciences
-2,2,Administration - Adult Probation
-3,2,Community Services
-4,2,Pre-Sentencing Investigation
-5,2,Work Orders & Grants
-6,3,Administration
-7,3,Airport Director
-8,3,Bureau Of Design And Construction
-9,3,Business & Finance
-10,3,Capital Projects And Grants
-11,3,Chief Operating Officer
-12,3,Communications & Marketing
-13,3,"Continuing Projects, Maintenance And Renewal"
-14,3,Facilities
-15,3,Fire Airport Bureau Non-Personnel Cost
-16,3,Operations And Security
-17,3,Planning Division
-18,3,Police Airport Bureau Non-Personnel Cost
-19,4,Art Commission-Administration
-20,4,Civic Collection
-21,4,Community Arts & Education
-22,4,Cultural Equity
-23,4,Gallery
-24,4,Municipal Symphony Concerts
-25,4,Public Art
-26,4,Street Artists
-27,5,Asian Arts Museum
-28,6,Personal Property
-29,6,Real Property
-30,6,Recorder
-31,6,Technical Services
-32,6,Transfer Tax
-33,7,Appeals Processing
-34,8,Board - Legislative Analysis
-35,8,Board Of Supervisor
-36,8,Children's Baseline
-37,8,Clerk Of The Board
-38,8,Local Agency Formation
-39,9,Children And Families Fund
-40,9,Public Ed Fund - Prop H ( March 2004 )
-41,10,Children's Baseline
-42,10,Children's Fund Programs
-43,10,Children's Services - Non - Children's Fund
-44,10,Public Education Fund ( Prop H )
-45,10,Violence Prevention
-46,11,Child Support Services Program
-47,12,Claims
-48,12,Legal Service
-49,12,Legal Service-Paying Depts
-50,13,Administration/Planning
-51,13,Current Planning
-52,13,Environmental Planning
-53,13,Long Range Planning
-54,13,Zoning Administration And Compliance
-55,14,Civil Service Commission
-56,15,Accounting Operations And Systems
-57,15,City Services Auditor
-58,15,Economic Analysis
-59,15,"Management, Budget And Analysis"
-60,15,Payroll And Personnel Services
-61,15,Public Finance
-62,16,County Education Services
-63,17,Administration/Support Services
-64,17,Housing Inspection/Code Enforcement Services
-65,17,Inspection Services
-66,17,Plan Review Services
-67,18,Emergency Communications
-68,18,Emergency Management - EMSA
-69,18,Emergency Services
-70,18,False Alarm Prevention
-71,18,Outdoor Public Warning System
-72,19,Children's Baseline
-73,19,Commission On Status Of Women
-74,19,Domestic Violence
-75,20,Administration - Criminal & Civil
-76,20,Career Criminal Prosecution
-77,20,Child Abduction
-78,20,Family Violence Program
-79,20,Felony Prosecution
-80,20,Misdemeanor Prosecution
-81,20,Support Services
-82,20,Work Orders & Grants
-83,21,Children's Baseline
-84,21,Economic Development
-85,21,Film Services
-86,21,Office Of Small Business Affairs
-87,21,Workforce Training
-88,22,Elections
-89,23,Clean Air
-90,23,Climate Change/Energy
-91,23,Environment
-92,23,Environmental Justice / Youth Employment
-93,23,Environment-Outreach
-94,23,Green Building
-95,23,Recycling
-96,23,Solid Waste Management
-97,23,Toxics
-98,23,Urban Forestry
-99,24,Election Campaign Fund
-100,24,Ethics Commission
-101,25,Admissions
-102,25,Oper & Maintenance Of Museums
-103,26,Administration & Support Services
-104,26,Custody
-105,26,Fire General
-106,26,Fire Suppression
-107,26,Grant Services
-108,26,Prevention & Investigation
-109,26,Training
-110,27,General City Responsibilities
-111,27,Indigent Defense/Grand Jury
-112,27,Retiree Health Care - Prop B
-113,28,311 Call Center
-114,28,Animal Welfare
-115,28,Capital Asset Planning
-116,28,City Administrator - Administration
-117,28,County Clerk Services
-118,28,Disability Access
-119,28,Entertainment Commission
-120,28,Facilities Mgmt & Operations
-121,28,Fleet Management
-122,28,Grants For The Arts
-123,28,Immigrant Rights Commission
-124,28,Justice Project - City Adm Office
-125,28,Living Wage / Living Health (MCO/HCAO)
-126,28,Medical Examiner
-127,28,Neighborhood Beautification
-128,28,Procurement Services
-129,28,Real Estate Services
-130,28,Reproduction Services
-131,28,Risk Management / General
-132,28,Tourism Events
-133,28,Treasure Island
-134,28,Vehicle & Equipment Main & Fueling
-135,29,Architecture
-136,29,Building Repair And Maintenance
-137,29,City Capital Projects
-138,29,Construction Management Services
-139,29,Engineering
-140,29,General Administration
-141,29,Neighborhood Beautification
-142,29,Street And Sewer Repair
-143,29,Street Environmental Services
-144,29,Street Use Management
-145,29,Urban Forestry
-146,30,Administration
-147,30,Governance And Outreach
-148,30,Operations
-149,30,Reproduction Services
-150,30,Technology
-151,30,Technology Services:Public Safety
-152,31,Health Service System
-153,32,Administration
-154,32,Debt Service
-155,32,Hetch Hetchy Capital Projects
-156,32,Hetchy Water Operations
-157,32,Power Infrastructure Development
-158,32,Power Purchasing/ Scheduling
-159,32,Power Utility Field Services
-160,32,Power Utility Services
-161,33,Administration
-162,33,Class And Compensation
-163,33,Employee Relations
-164,33,Equal Employment Opportunity
-165,33,Recruit/ Assess/ Client Services
-166,33,Workers Compensation
-167,33,Workforce Development
-168,34,Human Rights Commission
-169,35,Administrative Support
-170,35,Adult Protective Services
-171,35,Calworks
-172,35,Children's Baseline
-173,35,County Adult Assistance Program
-174,35,County Veterans Services
-175,35,Diversion And Community Integration Prog
-176,35,Dss Childcare
-177,35,Family And Children's Service
-178,35,Food Stamps
-179,35,Homeless Services
-180,35,In Home Supportive Services
-181,35,Integrated Intake
-182,35,Medi-Cal
-183,35,Office On Aging
-184,35,Public Administrator
-185,35,Public Conservator
-186,35,Public Guardian
-187,35,Representative Payee
-188,35,Welfare To Work
-189,36,Administration
-190,36,Children's Baseline
-191,36,Juvenile Hall
-192,36,Juvenile Hall Replacement Debt Payment
-193,36,Log Cabin Ranch
-194,36,Probation Services
-195,37,Law Library
-196,38,Affordable Housing
-197,38,City Administration
-198,38,Community Investment
-199,38,Criminal Justice
-200,38,Homeless Services
-201,38,Neighborhood Services
-202,38,Public Policy & Finance
-203,39,Accessible Services
-204,39,Administration
-205,39,Agency Wide Expenses
-206,39,Capital Programs & Construction
-207,39,Development And Planning
-208,39,Parking Garages & Lots
-209,39,Parking & Traffic
-210,39,Rail & Bus Services
-211,39,"Security, Safety, Training & Enforcement"
-212,39,Taxi Services
-213,40,Airport Police
-214,40,Investigations
-215,40,Office Of Citizen Complaints
-216,40,Operations And Administration
-217,40,Patrol
-218,40,Work Order Services
-219,41,Administration
-220,41,Engineering & Environmental
-221,41,Maintenance
-222,41,Maritime Operations & Marketing
-223,41,Non-Grant Construction Projects
-224,41,Planning & Development
-225,41,Real Estate & Management
-226,42,Criminal And Special Defense
-227,42,Grant Services
-228,42,Violence Prevention
-229,43,Central Administration
-230,43,Children's Baseline
-231,43,Comm Health - Comm Support - Housing
-232,43,Comm Health - Prevention - Aids
-233,43,Comm Health - Prevention - Disease Control
-234,43,Comm Health - Prevention - Health Education
-235,43,Comm Health - Prev - Maternal & Child Health
-236,43,Emergency Services Agency
-237,43,Environmental Health Services
-238,43,Forensics - Ambulatory Care
-239,43,Health At Home
-240,43,Laguna Honda Hosp - Acute Care
-241,43,Laguna Honda Hosp - Comm Support Care
-242,43,Laguna Honda - Long Term Care
-243,43,Mental Health - Acute Care
-244,43,Mental Health - Children's Program
-245,43,Mental Health - Community Care
-246,43,Mental Health - Long Term Care
-247,43,Occupational Safety & Health
-248,43,Primary Care - Ambu Care - Health Cntrs
-249,43,SFGH - Acute Care - Forensics
-250,43,SFGH - Acute Care - Hospital
-251,43,SFGH - Acute Care - Psychiatry
-252,43,SFGH - Ambu Care - Adult Med Health Cntr
-253,43,SFGH - Ambu Care - Methadone Clinic
-254,43,SFGH - Ambu Care - Occupational Health
-255,43,SFGH - Emergency - Emergency
-256,43,SFGH - Emergency - Psychiatric Services
-257,43,SFGH - Long Term Care - Rf Psychiatry
-258,43,Substance Abuse - Community Care
-259,44,Adult Services
-260,44,Branch Program
-261,44,Children's Baseline
-262,44,Children's Services
-263,44,"Communications, Collections & Adult Serv"
-264,44,Facilites
-265,44,Information Technology
-266,44,Library Administration
-267,44,Main Program
-268,44,Technical Services
-269,45,Customer Services
-270,45,Engineering
-271,45,Finance
-272,45,General Management
-273,45,Human Resources
-274,45,Management Information
-275,45,Strategic Planning/Compliance
-276,46,Capital Projects
-277,46,Children's Baseline
-278,46,Children's Services - Non - Children's Fund
-279,46,Golden Gate Park
-280,46,Marina Harbor
-281,46,Parks
-282,46,Rec & Park Administration
-283,46,Recreation
-284,46,Structural Maintenance
-285,47,Rent Board
-286,48,Administration
-287,48,Employee Deferred Comp Plan
-288,48,Investment
-289,48,Retirement Services
-290,49,Court Security And Process
-291,49,Custody
-292,49,Facilities & Equipment
-293,49,Security Services
-294,49,Sheriff Administration
-295,49,Sheriff Field Services
-296,49,Sheriff Programs
-297,49,Sheriff Recruitment & Training
-298,50,Court House Construction
-299,50,Dispute Resolution Program
-300,50,Indigent Defense/Grand Jury
-301,50,Trial Court Services
-302,51,Business Tax
-303,51,Delinquent Revenue
-304,51,Investment
-305,51,Legal Service
-306,51,Management
-307,51,Property Tax/Licensing
-308,51,Taxpayer Assistance
-309,51,Treasury
-310,52,Operations & Maintenance
-311,53,Administration
-312,53,Debt Service
-313,53,Strategic Planning/Compliance
-314,53,Wastewater Capital Projects
-315,53,Wastewater Collection
-316,53,Wastewater Operations
-317,53,Wastewater Treatment
-318,54,Administration
-319,54,Debt Service
-320,54,Water Capital Projects
-321,54,Water Source Of Supply
-322,54,Water Transmission/ Distribution
-323,54,Water Treatment
+programid,departmentid,program,refcode
+1,1,Academy Of Sciences,EEH
+2,2,Administration - Adult Probation,ASH
+3,2,Community Services,AKB
+4,2,Pre-Sentencing Investigation,AKG
+5,2,Work Orders & Grants,AIE
+6,3,Administration,BG1
+7,3,Airport Director,BG5
+8,3,Bureau Of Design And Construction,BG8
+9,3,Business & Finance,BG2
+10,3,Capital Projects And Grants,BGT
+11,3,Chief Operating Officer,BG4
+12,3,Communications & Marketing,BG3
+13,3,"Continuing Projects, Maintenance And Renewal",BGS
+14,3,Facilities,BG6
+15,3,Fire Airport Bureau Non-Personnel Cost,BGQ
+16,3,Operations And Security,BG7
+17,3,Planning Division,BG9
+18,3,Police Airport Bureau Non-Personnel Cost,BGR
+19,4,Art Commission-Administration,EEJ
+20,4,Civic Collection,EER
+21,4,Community Arts & Education,EEO
+22,4,Cultural Equity,EEP
+23,4,Gallery,EES
+24,4,Municipal Symphony Concerts,EEQ
+25,4,Public Art,EEN
+26,4,Street Artists,EEM
+27,5,Asian Arts Museum,EEI
+28,6,Personal Property,FDK
+29,6,Real Property,FDJ
+30,6,Recorder,FCG
+31,6,Technical Services,FDL
+32,6,Transfer Tax,FEH
+33,7,Appeals Processing,BAH
+34,8,Board - Legislative Analysis,FAQ
+35,8,Board Of Supervisor,FAA
+36,8,Children's Baseline,FAL
+37,8,Clerk Of The Board,FAE
+38,8,Local Agency Formation,FAT
+39,9,Children And Families Fund,CFC
+40,9,Public Ed Fund - Prop H ( March 2004 ),CPH
+41,10,Children's Baseline,FAL
+42,10,Children's Fund Programs,CBI
+43,10,Children's Services - Non - Children's Fund,CAQ
+44,10,Public Education Fund ( Prop H ),CBK
+45,10,Violence Prevention,CVP
+46,11,Child Support Services Program,CAF
+47,12,Claims,FA2
+48,12,Legal Service,FC2
+49,12,Legal Service-Paying Depts,FC3
+50,13,Administration/Planning,FEF
+51,13,Current Planning,FDP
+52,13,Environmental Planning,FFP
+53,13,Long Range Planning,FAH
+54,13,Zoning Administration And Compliance,FZA
+55,14,Civil Service Commission,FCV
+56,15,Accounting Operations And Systems,FDG
+57,15,City Services Auditor,FDO
+58,15,Economic Analysis,FFM
+59,15,"Management, Budget And Analysis",FEB
+60,15,Payroll And Personnel Services,FDC
+61,15,Public Finance,FFG
+62,16,County Education Services,EEE
+63,17,Administration/Support Services,BAN
+64,17,Housing Inspection/Code Enforcement Services,BHS
+65,17,Inspection Services,BIS
+66,17,Plan Review Services,BPS
+67,18,Emergency Communications,BIR
+68,18,Emergency Management - EMSA,BIZ
+69,18,Emergency Services,BIV
+70,18,False Alarm Prevention,BIW
+71,18,Outdoor Public Warning System,BIY
+72,19,Children's Baseline,FAL
+73,19,Commission On Status Of Women,CAE
+74,19,Domestic Violence,CAZ
+75,20,Administration - Criminal & Civil,ASI
+76,20,Career Criminal Prosecution,AID
+77,20,Child Abduction,AIH
+78,20,Family Violence Program,AIJ
+79,20,Felony Prosecution,AIA
+80,20,Misdemeanor Prosecution,AIF
+81,20,Support Services,AII
+82,20,Work Orders & Grants,AIE
+83,21,Children's Baseline,FAL
+84,21,Economic Development,BK5
+85,21,Film Services,BFS
+86,21,Office Of Small Business Affairs,BK7
+87,21,Workforce Training,BL1
+88,22,Elections,FCH
+89,23,Clean Air,CIO
+90,23,Climate Change/Energy,CIP
+91,23,Environment,CIG
+92,23,Environmental Justice / Youth Employment,CIQ
+93,23,Environment-Outreach,CIU
+94,23,Green Building,CIR
+95,23,Recycling,CIS
+96,23,Solid Waste Management,BAI
+97,23,Toxics,CIT
+98,23,Urban Forestry,BA1
+99,24,Election Campaign Fund,FFF
+100,24,Ethics Commission,FET
+101,25,Admissions,EEB
+102,25,Oper & Maintenance Of Museums,EEC
+103,26,Administration & Support Services,AAD
+104,26,Custody,AFC
+105,26,Fire General,AGE
+106,26,Fire Suppression,AEC
+107,26,Grant Services,AKI
+108,26,Prevention & Investigation,API
+109,26,Training,ATR
+110,27,General City Responsibilities,FCZ
+111,27,Indigent Defense/Grand Jury,AML
+112,27,Retiree Health Care - Prop B,FHC
+113,28,311 Call Center,FFO
+114,28,Animal Welfare,AUA
+115,28,Capital Asset Planning,FAU
+116,28,City Administrator - Administration,FAC
+117,28,County Clerk Services,AME
+118,28,Disability Access,FAV
+119,28,Entertainment Commission,FFL
+120,28,Facilities Mgmt & Operations,FFH
+121,28,Fleet Management,FFK
+122,28,Grants For The Arts,FEQ
+123,28,Immigrant Rights Commission,FFN
+124,28,Justice Project - City Adm Office,AJU
+125,28,Living Wage / Living Health (MCO/HCAO),FFB
+126,28,Medical Examiner,ASG
+127,28,Neighborhood Beautification,FER
+128,28,Procurement Services,FCC
+129,28,Real Estate Services,FFI
+130,28,Reproduction Services,FCB
+131,28,Risk Management / General,FCT
+132,28,Tourism Events,EIJ
+133,28,Treasure Island,BK6
+134,28,Vehicle & Equipment Main & Fueling,FFJ
+135,29,Architecture,BAM
+136,29,Building Repair And Maintenance,BAR
+137,29,City Capital Projects,BAW
+138,29,Construction Management Services,BAG
+139,29,Engineering,BAA
+140,29,General Administration,BKJ
+141,29,Neighborhood Beautification,FER
+142,29,Street And Sewer Repair,BA2
+143,29,Street Environmental Services,BAZ
+144,29,Street Use Management,BAT
+145,29,Urban Forestry,BA1
+146,30,Administration,BIU
+147,30,Governance And Outreach,BK4
+148,30,Operations,BAK
+149,30,Reproduction Services,FCB
+150,30,Technology,BIT
+151,30,Technology Services:Public Safety,BTO
+152,31,Health Service System,FEE
+153,32,Administration,BDA
+154,32,Debt Service,BDQ
+155,32,Hetch Hetchy Capital Projects,BCP
+156,32,Hetchy Water Operations,BDO
+157,32,Power Infrastructure Development,BDI
+158,32,Power Purchasing/ Scheduling,BDG
+159,32,Power Utility Field Services,BDH
+160,32,Power Utility Services,BCC
+161,33,Administration,FCW
+162,33,Class And Compensation,FH1
+163,33,Employee Relations,FC4
+164,33,Equal Employment Opportunity,FC8
+165,33,Recruit/ Assess/ Client Services,FC5
+166,33,Workers Compensation,FDE
+167,33,Workforce Development,FAR
+168,34,Human Rights Commission,CAD
+169,35,Administrative Support,CAO
+170,35,Adult Protective Services,CGO
+171,35,Calworks,CAG
+172,35,Children's Baseline,FAL
+173,35,County Adult Assistance Program,CAI
+174,35,County Veterans Services,CIJ
+175,35,Diversion And Community Integration Prog,CGP
+176,35,Dss Childcare,CGU
+177,35,Family And Children's Service,CAL
+178,35,Food Stamps,CAH
+179,35,Homeless Services,CAN
+180,35,In Home Supportive Services,CIM
+181,35,Integrated Intake,CGQ
+182,35,Medi-Cal,CAJ
+183,35,Office On Aging,CIF
+184,35,Public Administrator,CIH
+185,35,Public Conservator,CGR
+186,35,Public Guardian,CGS
+187,35,Representative Payee,CGT
+188,35,Welfare To Work,CGV
+189,36,Administration,ASC
+190,36,Children's Baseline,FAL
+191,36,Juvenile Hall,AKE
+192,36,Juvenile Hall Replacement Debt Payment,AKS
+193,36,Log Cabin Ranch,AKF
+194,36,Probation Services,AKC
+195,37,Law Library,EEA
+196,38,Affordable Housing,FFC
+197,38,City Administration,FEA
+198,38,Community Investment,FAB
+199,38,Criminal Justice,CGD
+200,38,Homeless Services,CAN
+201,38,Neighborhood Services,FAJ
+202,38,Public Policy & Finance,FEY
+203,39,Accessible Services,BEV
+204,39,Administration,BE1
+205,39,Agency Wide Expenses,BEG
+206,39,Capital Programs & Construction,BE7
+207,39,Development And Planning,BEB
+208,39,Parking Garages & Lots,BE5
+209,39,Parking & Traffic,BE2
+210,39,Rail & Bus Services,BEN
+211,39,"Security, Safety, Training & Enforcement",BE3
+212,39,Taxi Services,BE6
+213,40,Airport Police,AC5
+214,40,Investigations,ACB
+215,40,Office Of Citizen Complaints,ACV
+216,40,Operations And Administration,ACM
+217,40,Patrol,ACX
+218,40,Work Order Services,ACP
+219,41,Administration,BKO
+220,41,Engineering & Environmental,BK9
+221,41,Maintenance,BKY
+222,41,Maritime Operations & Marketing,BKD
+223,41,Non-Grant Construction Projects,BAC
+224,41,Planning & Development,BKW
+225,41,Real Estate & Management,BKZ
+226,42,Criminal And Special Defense,AIB
+227,42,Grant Services,AKI
+228,42,Violence Prevention,CVP
+229,43,Central Administration,DHA
+230,43,Children's Baseline,FAL
+231,43,Comm Health - Comm Support - Housing,DSP
+232,43,Comm Health - Prevention - Aids,DPC
+233,43,Comm Health - Prevention - Disease Control,DPD
+234,43,Comm Health - Prevention - Health Education,DPH
+235,43,Comm Health - Prev - Maternal & Child Health,DPM
+236,43,Emergency Services Agency,DPE
+237,43,Environmental Health Services,DPB
+238,43,Forensics - Ambulatory Care,DMF
+239,43,Health At Home,DHH
+240,43,Laguna Honda Hosp - Acute Care,DBG
+241,43,Laguna Honda Hosp - Comm Support Care,DBD
+242,43,Laguna Honda - Long Term Care,DA5
+243,43,Mental Health - Acute Care,DQM
+244,43,Mental Health - Children's Program,FAM
+245,43,Mental Health - Community Care,DMM
+246,43,Mental Health - Long Term Care,DLT
+247,43,Occupational Safety & Health,DPO
+248,43,Primary Care - Ambu Care - Health Cntrs,DHP
+249,43,SFGH - Acute Care - Forensics,D1F
+250,43,SFGH - Acute Care - Hospital,D1H
+251,43,SFGH - Acute Care - Psychiatry,D1P
+252,43,SFGH - Ambu Care - Adult Med Health Cntr,D3A
+253,43,SFGH - Ambu Care - Methadone Clinic,D3C
+254,43,SFGH - Ambu Care - Occupational Health,D3O
+255,43,SFGH - Emergency - Emergency,D5E
+256,43,SFGH - Emergency - Psychiatric Services,D5S
+257,43,SFGH - Long Term Care - Rf Psychiatry,D6P
+258,43,Substance Abuse - Community Care,DMS
+259,44,Adult Services,EGE
+260,44,Branch Program,EEG
+261,44,Children's Baseline,FAL
+262,44,Children's Services,CBF
+263,44,"Communications, Collections & Adult Serv",EGF
+264,44,Facilites,EGH
+265,44,Information Technology,EGG
+266,44,Library Administration,EIB
+267,44,Main Program,EEF
+268,44,Technical Services,EGD
+269,45,Customer Services,BCE
+270,45,Engineering,BCU
+271,45,Finance,BCT
+272,45,General Management,BCR
+273,45,Human Resources,BCW
+274,45,Management Information,BCS
+275,45,Strategic Planning/Compliance,BCV
+276,46,Capital Projects,ECS
+277,46,Children's Baseline,FAL
+278,46,Children's Services - Non - Children's Fund,CAQ
+279,46,Golden Gate Park,EAA
+280,46,Marina Harbor,ECY
+281,46,Parks,EAP
+282,46,Rec & Park Administration,EIA
+283,46,Recreation,ECU
+284,46,Structural Maintenance,ECD
+285,47,Rent Board,CCC
+286,48,Administration,FED
+287,48,Employee Deferred Comp Plan,EDC
+288,48,Investment,FDF
+289,48,Retirement Services,FDD
+290,49,Court Security And Process,AMC
+291,49,Custody,AFC
+292,49,Facilities & Equipment,ASP
+293,49,Security Services,AFT
+294,49,Sheriff Administration,ASB
+295,49,Sheriff Field Services,AFS
+296,49,Sheriff Programs,AFP
+297,49,Sheriff Recruitment & Training,AKR
+298,50,Court House Construction,AMN
+299,50,Dispute Resolution Program,AIK
+300,50,Indigent Defense/Grand Jury,AML
+301,50,Trial Court Services,AMT
+302,51,Business Tax,FCO
+303,51,Delinquent Revenue,FCS
+304,51,Investment,FCM
+305,51,Legal Service,FC2
+306,51,Management,FEG
+307,51,Property Tax/Licensing,FCN
+308,51,Taxpayer Assistance,FCQ
+309,51,Treasury,FCL
+310,52,Operations & Maintenance,EED
+311,53,Administration,BDA
+312,53,Debt Service,BDQ
+313,53,Strategic Planning/Compliance,BCV
+314,53,Wastewater Capital Projects,BDP
+315,53,Wastewater Collection,BDE
+316,53,Wastewater Operations,BAX
+317,53,Wastewater Treatment,BDC
+318,54,Administration,BDA
+319,54,Debt Service,BDQ
+320,54,Water Capital Projects,BCI
+321,54,Water Source Of Supply,BDJ
+322,54,Water Transmission/ Distribution,BDK
+323,54,Water Treatment,BDM

@@ -66,8 +66,10 @@ create temporary table line_items as
 select
 	dense_rank() over (order by departmenttitle asc) as departmentid,
 	departmenttitle as department,
+	department as department_refcode,
 	dense_rank() over (order by departmenttitle asc, programtitle asc) as programid,
 	programtitle as program,
+	program as program_refcode,
 	sum(year1::float) as spending_year1,
 	sum(year2::float) as spending_year2,
 	type
@@ -75,10 +77,12 @@ from raw
 where type in ('Gross Expenditures', 'Facilities Maintenance', 'Capital Projects')
 group by
 	departmenttitle,
+	department,
 	programtitle,
+	program,
 	type;
 
-\copy (select distinct departmentid, department from line_items order by departmentid asc) to stdout with csv header;
-\copy (select programid, departmentid, program from line_items order by programid asc) to stdout with csv header;
+\copy (select distinct departmentid, department, department_refcode as refcode from line_items order by departmentid asc) to stdout with csv header;
+\copy (select distinct programid, departmentid, program, program_refcode as refcode from line_items order by programid asc) to stdout with csv header;
 \copy (select programid, '2010-2011' as period, spending_year1 as spending from line_items order by programid asc) to stdout with csv header;
 \copy (select programid, '2011-2012' as period, spending_year2 as spending from line_items order by programid asc) to stdout with csv header;
