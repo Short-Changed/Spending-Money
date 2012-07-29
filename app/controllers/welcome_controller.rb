@@ -1,8 +1,13 @@
 class WelcomeController < ApplicationController
+
+  expose(:location_name)  { "City of San Francisco" }
+  expose(:location)       { Location.find_by_name(location_name) }
+  expose(:population)     { location.population }
+  expose(:yearly_revenues) { location.revenues.order('year asc') }
+  expose(:revenues)       { yearly_revenues.collect(&:amount).to_json }
+  expose(:revenue)        { yearly_revenues.last.amount }
+  expose(:your_chunk)     { revenue / population }
+
   def index
-    @current_revenue = Location.find_by_name('City of San Francisco').revenues.order('year asc').last.amount
-    @current_population = Location.find_by_name('City of San Francisco').population
-    @your_chunk = @current_revenue / @current_population
-    @revenues = Location.find_by_name('City of San Francisco').revenues.order('year desc').collect { |r| r.amount }.to_json
   end
 end
