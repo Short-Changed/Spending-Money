@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+function = Function.create!(name: "Health")
+
+dept = function.departments.create!(name: "Water Department")
+
+dept.programs.create!(name: "Water Treatment")
