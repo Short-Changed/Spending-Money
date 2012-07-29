@@ -2,4 +2,4 @@
   %span.program
     = program.name
     $
-    %input{class:'expenditure_amount', name:"expenditure[amount]", 'data-user_id' => '1', 'data-year' => Time.now.year, style:'width:4em;'}
+    %input{class:'expenditure_amount', name:"expenditure[amount]", 'data-user_id' => '1', 'data-year' => Time.now.year, 'data-program_id' => program.id, style:'width:4em;'}
