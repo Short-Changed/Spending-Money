@@ -38,7 +38,7 @@
     .hero-unit
       %h2
         You have #{number_to_currency(@your_chunk, precision:0)} to spend on your local programs.
-        %span.btn-toolbar= link_to "Get Started Now!", functions_path, class: 'btn btn-primary btn-large'
+        %span.btn-toolbar= link_to "Get Started Now!", spending_index_path, class: 'btn btn-primary btn-large'
 
 :javascript
   var current_revenue = "#{number_to_human(@current_revenue, precision:2)}";
