@@ -10,7 +10,13 @@
 #
 
 class Function < ActiveRecord::Base
+
   attr_accessible :name
 
   has_many :departments
+
+  def to_s
+    name
+  end
+
 end
