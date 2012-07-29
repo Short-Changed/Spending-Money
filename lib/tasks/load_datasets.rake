@@ -10,6 +10,7 @@ namespace :db do
     load_programs
   end
 
+  desc "Purges all datasets from database"
   task :purge_data => :environment do
     Program.destroy_all
     Department.destroy_all
