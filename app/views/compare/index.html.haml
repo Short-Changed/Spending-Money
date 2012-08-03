@@ -14,9 +14,9 @@
   function drawChart() {
     var user_data = google.visualization.arrayToDataTable(#{user_expenditures});
     var user_chart = new google.visualization.PieChart(document.getElementById('users-graph'));
-    user_chart.draw(user_data, {title: "User Data", legend:{position:'none'}});
+    user_chart.draw(user_data, {title: "User Data"});
 
     var gov_data = google.visualization.arrayToDataTable(#{city_expenditures});
     var gov_chart = new google.visualization.PieChart(document.getElementById('gov-graph'));
-    gov_chart.draw(gov_data, {title: "City Data", legend:{position:'none'}});
+    gov_chart.draw(gov_data, {title: "City Data"});
   }
