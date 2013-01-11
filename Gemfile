@@ -5,7 +5,7 @@ ruby "1.9.3"
 
 gem 'bundler',
     '~> 1.2.0.rc'                       # gem install bundler --pre
-gem 'rails', '3.2.6'
+gem 'rails', '~> 3.2'
 
 gem 'pg'
 gem 'devise', git: 'git://github.com/plataformatec/devise.git', branch: 'master'
